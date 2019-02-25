@@ -14,7 +14,7 @@
 
 window.onload = function() {
 	var map = initMap('mapid')
-	map.setZoom(12)
+	map.setZoom(10)
 	map.panTo([ 35.98331, 136.496844 ]) // 大野駅
 	map.addIcon(35.98331, 136.496844,"大野駅")
 	map.on("click", (e)=>alert(e.latlng))
